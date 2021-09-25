@@ -2,7 +2,7 @@ import { BackgroundContainer, Button, Container, RightContainer } from './styles
 import Background from '../../assets/images/banner-bg.jpg'
 import { FaTwitter } from 'react-icons/fa'
 
-const Login = () => {
+const Login: React.FC = () => {
   return (
     <Container>
       <BackgroundContainer>
@@ -13,7 +13,7 @@ const Login = () => {
         <h1>Acontecendo agora</h1>
         <h2>Inscreva-se no Twitter hoje mesmo.</h2>
         <Button>Inscreva-se com e-mail</Button>
-        <p>Já tem uma conta? <span>Entre</span></p>
+        <p>Já tem uma conta? <span>Entre aqui</span></p>
       </RightContainer>
     </Container>
   )

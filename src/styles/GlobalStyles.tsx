@@ -23,6 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	color: #fff;
 	font-family: 'DM Sans', sans-serif;
+	
 }
 
 html { 

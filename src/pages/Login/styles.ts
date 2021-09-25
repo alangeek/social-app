@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
+  
 `
 
 export const BackgroundContainer = styled.div`
@@ -13,11 +14,13 @@ export const BackgroundContainer = styled.div`
 `
 
 export const RightContainer = styled.div`
+
   margin-left: 30px;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+ 
 
   h1 {
     margin-top: 60px;
@@ -44,14 +47,14 @@ export const RightContainer = styled.div`
   }
 
   span {
-    color: purple;
+    color: ${(props) => props.theme.color.primary};
     cursor: pointer;
   }
 `
 
 export const Button = styled.button`
-  background-color: #fff;
-  color: #000;
+  background-color: #ff2f69;
+  color: #fff;
   border-radius: 70px;
   height: 49px;
   width: 381px;
@@ -60,4 +63,9 @@ export const Button = styled.button`
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+  outline: none;
+
+  :hover {
+    opacity: 0.8;
+  }
 `
