@@ -1,10 +1,15 @@
 import { BackgroundContainer, Button, Container, RightContainer } from './styles'
 import Background from '../../assets/images/banner-bg.jpg'
 import { FaTwitter } from 'react-icons/fa'
+import Modal from '../../components/Modal'
 
 const Login: React.FC = () => {
   return (
     <Container>
+      <Modal>
+        <h1>Faça login aqui:</h1>
+        <button>Faça login</button>
+      </Modal>
       <BackgroundContainer>
         <img src={Background} alt="Banner login" />
       </BackgroundContainer>

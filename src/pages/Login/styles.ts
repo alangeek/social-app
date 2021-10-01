@@ -7,14 +7,13 @@ export const Container = styled.div`
 
 export const BackgroundContainer = styled.div`
   img { 
-    height: 100vh;
+    height: 100%;
     width: 50vw;
     object-fit: cover;
   }
 `
 
 export const RightContainer = styled.div`
-
   margin-left: 30px;
   display: flex;
   flex-direction: column;
